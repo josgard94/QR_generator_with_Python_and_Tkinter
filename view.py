@@ -31,10 +31,8 @@ class view:
 			 border = 2,
 			)
 			qr.add_data('WIFI:T:'+Seguridad+';S:'+SSID+';P:'+Password+';H:'+Visibilidad+';'); #Url or information that will contain the qr code.
-			#qr.add_data('mailto:edgard.diaz@cinvestav.mx'); #Url or information that will contain the qr code.
-			#40.4319077,116.5681862
-			#qr.add_data('geo:23.739204,-99.152220,700'); #Url or information that will contain the qr code.
 			qr.make(fit = True);
+			
 			img = qr.make_image(fill_color = "black", black_color = "black");
 
 			
@@ -67,8 +65,7 @@ class view:
 		f.grid(row=0, column=0, sticky ="NW");
 		f.grid_propagate(0)
 		f.update()
-		#Componentes del Frame 1
-		#self.QR_Show(ventana);
+		
 
 		#Frame que contiene  los campos requeridos para generar el QR
 		f2 = tk.Frame(ventana, bd = 1, width = 300, height = 150);
