@@ -1,2 +1,2 @@
 # QR_generator_with_Python_and_Tkinter
-Comparte tu conexión Wifi usando un QR. En este proyecto,  se utiliza la librería qrcode de Python para generar un código QR  con la información necesaria para realizar  automáticamente la conexión de un dispositivo móvil  a una red Wifi.
+Share your Wifi connection using a QR. In this project, the Python qrcode library is used to generate a QR code with the necessary information to automatically connect a mobile device to a Wifi network.
