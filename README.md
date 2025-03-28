@@ -35,5 +35,9 @@ In this project, we use ERROR_CORRECT_Q for a balance between reliability and QR
 ## 🖼️ Interface
 This app uses Tkinter to provide a graphical interface where users can enter Wi-Fi credentials and instantly generate a QR code ready to scan.
 
+### 🔳 Sample UI
+
+![App Screenshot](https://github.com/josgard94/QR_generator_with_Python_and_Tkinter/blob/master/interfaz_del_programa.PNG)
+
 ## ⭐ Like this project?
 Star it if you found it useful ⭐ and feel free to contribute!
